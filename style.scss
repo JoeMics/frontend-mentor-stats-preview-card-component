@@ -15,3 +15,12 @@ $font-inter: "Inter", sans-serif;
 $font-lexend-deca: "Lexend Deca", sans-serif;
 
 $body-font-size: 15px;
+
+* {
+  box-sizing: border-box;
+}
+
+.preview-card {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}

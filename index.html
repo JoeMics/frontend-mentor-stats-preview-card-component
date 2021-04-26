@@ -53,12 +53,20 @@
           </li>
         </ul>
       </section>
-      <figure class="preview-card__photo">
+      <picture class="preview-card__photo">
+        <source
+          media="(min-width: 1440px)"
+          srcset="./images/image-header-desktop.jpg"
+        />
+        <source
+          media="(min-width: 375px)"
+          srcset="./images/image-header-mobile.jpg"
+        />
         <img
-          src="./images/image-header-desktop.jpg"
+          src="./images/image-header-mobile.jpg"
           alt="smiling-office-worker"
         />
-      </figure>
+      </picture>
     </div>
 
     <div class="attribution">
