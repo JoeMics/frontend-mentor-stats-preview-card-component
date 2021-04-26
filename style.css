@@ -6,6 +6,13 @@
 html {
   height: 100%;
   align-items: center;
+  background-color: #090b1a;
+}
+
+body {
+  margin: auto 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 html,
@@ -16,6 +23,7 @@ html,
 
 .preview-card {
   flex-wrap: wrap-reverse;
+  background-color: #1b1938;
 }
 
 .preview-card__photo img,

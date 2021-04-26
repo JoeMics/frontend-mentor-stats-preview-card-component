@@ -23,6 +23,13 @@ $body-font-size: 15px;
 html {
   height: 100%;
   align-items: center;
+  background-color: $primary-dark-blue;
+}
+
+body {
+  margin: auto 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 html,
@@ -33,6 +40,7 @@ html,
 
 .preview-card {
   flex-wrap: wrap-reverse;
+  background-color: $primary-desaturated-blue;
 }
 
 .preview-card__photo {
