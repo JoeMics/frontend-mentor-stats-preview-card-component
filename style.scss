@@ -20,7 +20,25 @@ $body-font-size: 15px;
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  align-items: center;
+}
+
+html,
 .preview-card {
   display: flex;
+  justify-content: center;
+}
+
+.preview-card {
   flex-wrap: wrap-reverse;
+}
+
+.preview-card__photo {
+  img,
+  source {
+    height: auto;
+    width: 100%;
+  }
 }
