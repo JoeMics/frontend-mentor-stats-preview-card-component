@@ -67,9 +67,11 @@ html,
 
   img,
   source {
-    opacity: 0.4;
+    opacity: 0.25;
     height: 100%;
     width: 100%;
+    filter: contrast(0.9);
+    filter: brightness(0.01);
   }
 }
 

@@ -48,9 +48,11 @@ html,
 }
 .preview-card__photo img,
 .preview-card__photo source {
-  opacity: 0.4;
+  opacity: 0.25;
   height: 100%;
   width: 100%;
+  filter: contrast(0.9);
+  filter: brightness(0.01);
 }
 
 .preview-card__text {
