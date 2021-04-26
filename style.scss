@@ -14,7 +14,7 @@ $neutral-white-300: hsla(0, 0%, 100%, 0.6);
 $font-inter: "Inter", sans-serif;
 $font-lexend-deca: "Lexend Deca", sans-serif;
 
-$body-font-size: 15px;
+$body-font-size: 0.9375rem;
 
 * {
   box-sizing: border-box;
@@ -26,15 +26,18 @@ html {
   background-color: $primary-dark-blue;
 }
 
-body {
-  margin: auto 30px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+strong {
+  color: $primary-soft-violet;
+}
+
+html,
+.preview-card,
+.preview-card__photo {
+  display: flex;
 }
 
 html,
 .preview-card {
-  display: flex;
   justify-content: center;
 }
 
@@ -44,9 +47,42 @@ html,
 }
 
 .preview-card__photo {
+  background-color: $primary-soft-violet;
+  background-blend-mode: overlay;
+
   img,
   source {
-    height: auto;
+    opacity: 0.5;
+    height: 100%;
     width: 100%;
   }
+}
+
+.preview-card__text {
+  font-family: $font-inter;
+  font-size: $body-font-size;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+}
+
+.preview-card__text__heading {
+  font-size: 2rem;
+  color: $neutral-white-100;
+}
+
+.preview-card__text__description {
+  color: $neutral-white-200;
+}
+
+.preview-card__text__stats__stat__number {
+  color: $neutral-white-100;
+}
+
+.preview-card__text__stats__stat__heading {
+  font-family: $font-lexend-deca;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: $neutral-white-300;
+  font-weight: 400;
 }
