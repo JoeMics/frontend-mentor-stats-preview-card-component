@@ -29,13 +29,26 @@ html,
   background-color: #1b1938;
 }
 
+@media screen and (min-width: 1440px) {
+  .preview-card__photo {
+    background-image: url("./images/image-header-desktop.jpg");
+  }
+}
+@media screen and (max-width: 1440px) {
+  .preview-card__photo {
+    background-image: url("./images/image-header-mobile.jpg");
+  }
+}
 .preview-card__photo {
   background-color: #aa5cdb;
+  background-size: cover;
   background-blend-mode: overlay;
+  height: 100%;
+  width: auto;
 }
 .preview-card__photo img,
 .preview-card__photo source {
-  opacity: 0.5;
+  opacity: 0.4;
   height: 100%;
   width: 100%;
 }
