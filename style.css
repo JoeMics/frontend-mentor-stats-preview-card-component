@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  align-items: center;
+  background-color: #090b1a;
+}
+
+strong {
+  color: #aa5cdb;
+}
+
+html,
+.preview-card,
+.preview-card__photo {
+  display: flex;
+}
+
+html,
+.preview-card {
+  justify-content: center;
+}
+
+.preview-card {
+  flex-wrap: wrap-reverse;
+  background-color: #1b1938;
+}
+
+.preview-card__photo {
+  background-color: #aa5cdb;
+  background-blend-mode: overlay;
+}
+.preview-card__photo img,
+.preview-card__photo source {
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+
+.preview-card__text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+}
+
+.preview-card__text__heading {
+  font-size: 2rem;
+  color: white;
+}
+
+.preview-card__text__description {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.preview-card__text__stats__stat__number {
+  color: white;
+}
+
+.preview-card__text__stats__stat__heading {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */

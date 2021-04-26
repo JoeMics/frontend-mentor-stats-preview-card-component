@@ -24,39 +24,48 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="preview-card">
       <section class="preview-card__text">
-        <h1 class="preview-card__text__hook">
-          Get insights that help your business grow. Discover the benefits of
-          data
+        <h1 class="preview-card__text__heading">
+          Get <strong>insights</strong> that help your business grow.
         </h1>
         <p class="preview-card__text__description">
-          analytics and make better decisions regarding revenue, customer
-          experience, and overall efficiency.
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
         </p>
         <ul class="preview-card__text__stats">
           <li class="preview-card__text__stats__stat">
             <h2 class="preview-card__text__stats__stat__number">10k+</h2>
-            companies
+            <h3 class="preview-card__text__stats__stat__heading">COMPANIES</h3>
           </li>
           <li class="preview-card__text__stats__stat">
             <h2 class="preview-card__text__stats__stat__number">314</h2>
-            templates
+            <h3 class="preview-card__text__stats__stat__heading">TEMPLATES</h3>
           </li>
           <li class="preview-card__text__stats__stat">
-            <h2 class="preview-card__text__stats__stat__number">12m+</h2>
-            queries
+            <h2 class="preview-card__text__stats__stat__number">12M+</h2>
+            <h3 class="preview-card__text__stats__stat__heading">QUERIES</h3>
           </li>
         </ul>
       </section>
-      <figure class="preview-card__photo">
+      <picture class="preview-card__photo">
+        <source
+          media="(min-width: 1440px)"
+          srcset="./images/image-header-desktop.jpg"
+        />
+        <source
+          media="(min-width: 375px)"
+          srcset="./images/image-header-mobile.jpg"
+        />
         <img
-          src="./images/image-header-desktop.jpg"
+          src="./images/image-header-mobile.jpg"
           alt="smiling-office-worker"
         />
-      </figure>
+      </picture>
     </div>
 
     <div class="attribution">
