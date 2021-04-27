@@ -29,30 +29,26 @@ html,
   background-color: #1b1938;
 }
 
-@media screen and (min-width: 1440px) {
-  .preview-card__photo {
-    background-image: url("./images/image-header-desktop.jpg");
-  }
-}
-@media screen and (max-width: 1440px) {
-  .preview-card__photo {
-    background-image: url("./images/image-header-mobile.jpg");
-  }
-}
 .preview-card__photo {
-  background-color: #aa5cdb;
-  background-size: cover;
-  background-blend-mode: overlay;
   height: 100%;
   width: auto;
+  position: relative;
 }
-.preview-card__photo img,
-.preview-card__photo source {
-  opacity: 0.25;
+.preview-card__photo img {
   height: 100%;
   width: 100%;
-  filter: contrast(0.9);
-  filter: brightness(0.01);
+  filter: brightness(0.6);
+}
+.preview-card__photo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #aa5cdb;
+  opacity: 0.78;
+  mix-blend-mode: hard-light;
 }
 
 .preview-card__text {
