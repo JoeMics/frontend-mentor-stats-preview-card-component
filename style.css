@@ -4,29 +4,35 @@
 }
 
 html {
-  height: 100%;
-  align-items: center;
+  height: 100vh;
+}
+
+body {
   background-color: #090b1a;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 strong {
   color: #aa5cdb;
 }
 
-html,
 .preview-card,
 .preview-card__photo {
   display: flex;
 }
 
-html,
-.preview-card {
-  justify-content: center;
-}
-
 .preview-card {
   flex-wrap: wrap-reverse;
+  justify-content: center;
   background-color: #1b1938;
+  max-width: 65vw;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .preview-card__photo {
@@ -34,6 +40,7 @@ html,
   width: auto;
   position: relative;
 }
+
 .preview-card__photo img {
   height: 100%;
   width: 100%;
@@ -56,7 +63,8 @@ html,
   font-size: 0.9375rem;
   display: flex;
   flex-direction: column;
-  flex-basis: 1;
+  flex-basis: 20vw;
+  flex-grow: 1;
 }
 
 .preview-card__text__heading {
