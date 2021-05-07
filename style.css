@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+  .preview-card__text {
+    text-align: center;
+  }
+}
 body {
   height: 100%;
   align-items: center;
@@ -33,7 +38,7 @@ strong {
   height: 100%;
   width: auto;
   position: relative;
-  flex: 1 0 300px;
+  flex: 1 1 400px;
 }
 
 .preview-card__photo img {
@@ -60,10 +65,12 @@ strong {
   display: flex;
   flex-direction: column;
   flex: 1 1 10em;
+  margin: 1em;
+  padding: 0 1em;
 }
 
 .preview-card__text__heading {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: white;
   max-width: 12em;
   align-self: center;
@@ -74,10 +81,12 @@ strong {
   max-width: 25em;
   align-self: center;
   line-height: 1.5rem;
+  margin-top: 0;
 }
 
 .preview-card__text__stats {
   list-style: none;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
