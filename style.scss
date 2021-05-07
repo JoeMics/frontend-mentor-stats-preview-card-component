@@ -1,21 +1,4 @@
-// Colors
-
-$primary-dark-blue: hsl(233, 47%, 7%);
-$primary-desaturated-blue: hsl(244, 38%, 16%);
-$primary-soft-violet: hsl(277, 64%, 61%);
-
-$neutral-white-100: hsl(0, 0%, 100%);
-$neutral-white-200: hsla(0, 0%, 100%, 0.75);
-$neutral-white-300: hsla(0, 0%, 100%, 0.6);
-
-// Typography
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
-
-$font-inter: "Inter", sans-serif;
-$font-lexend-deca: "Lexend Deca", sans-serif;
-
-$body-font-size: 0.9375rem;
-
 * {
   box-sizing: border-box;
 }
@@ -23,13 +6,13 @@ $body-font-size: 0.9375rem;
 body {
   height: 100%;
   align-items: center;
-  background-color: $primary-dark-blue;
+  background-color: #090b1a;
   display: flex;
   flex-direction: column;
 }
 
 strong {
-  color: $primary-soft-violet;
+  color: #aa5cdb;
 }
 
 .preview-card,
@@ -38,7 +21,7 @@ strong {
 }
 
 .preview-card {
-  background-color: $primary-desaturated-blue;
+  background-color: #1b1938;
   flex-wrap: wrap-reverse;
   justify-content: center;
 }
@@ -48,29 +31,29 @@ strong {
   width: auto;
   position: relative;
   flex: 1 1 5em;
+}
 
-  img {
-    height: 100%;
-    width: 100%;
-    filter: brightness(0.6);
-  }
+.preview-card__photo img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.6);
+}
 
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: $primary-soft-violet;
-    opacity: 0.78;
-    mix-blend-mode: hard-light;
-  }
+.preview-card__photo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #aa5cdb;
+  opacity: 0.78;
+  mix-blend-mode: hard-light;
 }
 
 .preview-card__text {
-  font-family: $font-inter;
-  font-size: $body-font-size;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
   display: flex;
   flex-direction: column;
   flex: 1 1 10em;
@@ -78,26 +61,36 @@ strong {
 
 .preview-card__text__heading {
   font-size: 2rem;
-  color: $neutral-white-100;
+  color: white;
   max-width: 12em;
   align-self: center;
 }
 
 .preview-card__text__description {
-  color: $neutral-white-200;
+  color: rgba(255, 255, 255, 0.75);
   max-width: 25em;
   align-self: center;
   line-height: 1.5rem;
 }
 
+.preview-card__text__stats {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview-card__text__stats__stat {
+  flex: 1 0 150px;
+}
+
 .preview-card__text__stats__stat__number {
-  color: $neutral-white-100;
+  color: white;
 }
 
 .preview-card__text__stats__stat__heading {
-  font-family: $font-lexend-deca;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 0.75rem;
   letter-spacing: 2px;
-  color: $neutral-white-300;
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
 }

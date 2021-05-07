@@ -32,11 +32,13 @@ strong {
   position: relative;
   flex: 1 1 5em;
 }
+
 .preview-card__photo img {
   height: 100%;
   width: 100%;
   filter: brightness(0.6);
 }
+
 .preview-card__photo::after {
   content: "";
   position: absolute;
@@ -69,6 +71,16 @@ strong {
   max-width: 25em;
   align-self: center;
   line-height: 1.5rem;
+}
+
+.preview-card__text__stats {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview-card__text__stats__stat {
+  flex: 1 0 150px;
 }
 
 .preview-card__text__stats__stat__number {
