@@ -22,6 +22,9 @@ strong {
 
 .preview-card {
   background-color: #1b1938;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 4em 1em;
   flex-wrap: wrap-reverse;
   justify-content: center;
 }
@@ -30,7 +33,7 @@ strong {
   height: 100%;
   width: auto;
   position: relative;
-  flex: 1 1 5em;
+  flex: 1 0 300px;
 }
 
 .preview-card__photo img {
