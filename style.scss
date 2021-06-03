@@ -40,7 +40,7 @@ strong {
   height: 100%;
   width: auto;
   position: relative;
-  flex: 1 1 400px;
+  flex: 1 1 200px;
 }
 
 .preview-card__photo img {
@@ -66,8 +66,7 @@ strong {
   font-size: 0.9375rem;
   display: flex;
   flex-direction: column;
-  flex: 1 1 10em;
-  margin: 1em;
+  flex: 1 1 17em;
   padding: 0 1em;
 }
 
@@ -76,6 +75,7 @@ strong {
   color: white;
   max-width: 12em;
   align-self: center;
+  margin-top: 1.5em;
 }
 
 .preview-card__text__description {
