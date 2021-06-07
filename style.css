@@ -103,4 +103,10 @@ strong {
   font-weight: 400;
 }
 
+@media screen and (min-width: 1440px) {
+  .preview-card__text {
+    text-align: left;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
