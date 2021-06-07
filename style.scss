@@ -3,13 +3,6 @@
   box-sizing: border-box;
 }
 
-// center text on tablet screens and smaller
-@media screen and (max-width: 1024px) {
-  .preview-card__text {
-    text-align: center;
-  }
-}
-
 body {
   height: 100%;
   align-items: center;
@@ -64,6 +57,7 @@ strong {
 .preview-card__text {
   font-family: "Inter", sans-serif;
   font-size: 0.9375rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
   flex: 1 1 17em;
@@ -107,4 +101,11 @@ strong {
   letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
+}
+
+// Desktop only
+@media screen and (min-width: 1440px) {
+  .preview-card__text {
+    text-align: left;
+  }
 }
