@@ -64,17 +64,21 @@ strong {
   padding: 0 1em;
 }
 
+.preview-card__text__heading,
+.preview-card__text__description,
+.preview-card__text__stats {
+  max-width: 25rem;
+}
+
 .preview-card__text__heading {
   font-size: 1.75rem;
   color: white;
-  max-width: 12em;
   align-self: center;
   margin-top: 1.5em;
 }
 
 .preview-card__text__description {
   color: rgba(255, 255, 255, 0.75);
-  max-width: 25em;
   align-self: center;
   line-height: 1.5rem;
   margin-top: 0;
@@ -113,6 +117,11 @@ strong {
 .preview-card__text__stats {
     align-self: flex-start;
     padding-left: 3rem;
+    width: 100%;
+  }
+
+  .preview-card__text__stats__stat {
+    flex-basis: auto;
   }
 }
 
