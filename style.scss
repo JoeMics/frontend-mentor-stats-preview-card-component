@@ -108,4 +108,11 @@ strong {
   .preview-card__text {
     text-align: left;
   }
+
+  .preview-card__text__description,
+  .preview-card__text__heading,
+  .preview-card__text__stats {
+    align-self: flex-start;
+    padding-left: 3rem;
+  }
 }
