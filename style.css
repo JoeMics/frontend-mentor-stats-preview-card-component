@@ -4,8 +4,11 @@
 }
 
 body {
-  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
   align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
   background-color: #090b1a;
   display: flex;
   flex-direction: column;
@@ -30,6 +33,7 @@ strong {
 }
 
 .preview-card__photo {
+  display: block;
   height: 100%;
   width: auto;
   position: relative;
