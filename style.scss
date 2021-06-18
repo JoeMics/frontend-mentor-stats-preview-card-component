@@ -28,7 +28,7 @@ strong {
   border-radius: 10px;
   overflow: hidden;
   margin: 4em 1em;
-  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
   justify-content: center;
 }
 
@@ -36,7 +36,7 @@ strong {
   height: 100%;
   width: auto;
   position: relative;
-  flex: 1 1 200px;
+  flex: 0 1 auto;
 }
 
 .preview-card__photo img {
@@ -63,7 +63,7 @@ strong {
   text-align: center;
   display: flex;
   flex-direction: column;
-  flex: 1 1 17em;
+  flex: 1 1 18em;
   padding: 0 1em;
 }
 
@@ -113,6 +113,10 @@ strong {
 
 // Desktop only
 @media screen and (min-width: 1440px) {
+  .preview-card {
+    flex-direction: row;
+  }
+
   .preview-card__text {
     text-align: left;
     padding-left: 4rem;
