@@ -75,8 +75,8 @@ strong {
 }
 
 .preview-card__text {
-  font-family: "Inter", sans-serif;
-  font-size: 0.9375rem;
+  font-family: $font-inter;
+  font-size: $body-font-size;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -122,7 +122,7 @@ strong {
 }
 
 .preview-card__text__stats__stat__heading {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: $font-lexend-deca;
   font-size: 0.75rem;
   letter-spacing: 2px;
   color: $neutral-white-300;
