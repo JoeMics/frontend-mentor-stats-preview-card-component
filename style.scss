@@ -130,11 +130,13 @@ strong {
 }
 
 .attribution {
-  font-size: .725rem;
+  font-family: $font-lexend-deca;
+  font-size: $body-font-size;
   text-align: center;
   color: $neutral-white-300;
 }
 .attribution a {
+  font-family: $font-inter;
   color: $primary-soft-violet;
 }
 

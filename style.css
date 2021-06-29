@@ -112,12 +112,14 @@ strong {
 }
 
 .attribution {
-  font-size: 0.725rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .attribution a {
+  font-family: "Inter", sans-serif;
   color: #aa5cdb;
 }
 
