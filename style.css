@@ -63,7 +63,7 @@ body,
   text-align: center;
   flex-direction: column;
   flex: 1 1 18em;
-  padding: 0 1em;
+  padding: 0 2em;
 }
 
 .preview-card__text__heading,
