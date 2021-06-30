@@ -127,8 +127,8 @@ body,
 
   .preview-card__text {
     text-align: left;
-    padding-left: 4rem;
-    padding-top: 1.5rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     margin-right: 7rem;
   }
@@ -143,10 +143,11 @@ body,
 
   .preview-card__text__heading {
     font-size: 2rem;
+    margin-bottom: 3rem;
   }
 
   .preview-card__text__description {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .preview-card__text__stats__stat {
