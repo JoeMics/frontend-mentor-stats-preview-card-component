@@ -63,7 +63,7 @@ body,
   text-align: center;
   flex-direction: column;
   flex: 1 1 18em;
-  padding: 0 1em;
+  padding: 0 2em;
 }
 
 .preview-card__text__heading,
@@ -73,7 +73,7 @@ body,
 }
 
 .preview-card__text__heading {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   color: white;
   align-self: center;
   margin-top: 1.5em;
@@ -127,8 +127,8 @@ body,
 
   .preview-card__text {
     text-align: left;
-    padding-left: 4rem;
-    padding-top: 1.5rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     margin-right: 7rem;
   }
@@ -141,8 +141,13 @@ body,
     width: 100%;
   }
 
-  .preview-card__text__description {
+  .preview-card__text__heading {
+    font-size: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .preview-card__text__description {
+    margin-bottom: 3rem;
   }
 
   .preview-card__text__stats__stat {
