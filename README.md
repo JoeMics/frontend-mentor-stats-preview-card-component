@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Solution Screenshot](./images/stats-preview-card-solution.jpg.jpg)
+![Solution Screenshot](./images/stats-preview-card-solution.jpg)
 
 ### Links
 
