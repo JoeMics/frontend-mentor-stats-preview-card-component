@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [On frontend.io](https://your-solution-url.com)
+- Solution URL: [On frontend.io](https://www.frontendmentor.io/solutions/responsive-site-made-using-sass-ErPfe66xP)
 - Live Site URL: [Github Pages](https://joemics.github.io/frontend-mentor-stats-preview-card-component/)
 
 ## My process
