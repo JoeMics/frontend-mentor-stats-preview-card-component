@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [On frontend.io](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://joemics.github.io/frontend-mentor-stats-preview-card-component/)
 
 ## My process
 
